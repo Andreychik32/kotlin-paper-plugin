@@ -14,3 +14,11 @@ Be sure to use this template as follows:
 ## Building Plugin
 
 To build plugin, use `./gradlew shadowJar` command in project root.
+
+## Debugging Plugin
+
+To debug plugin, use gradle's `devServer` subcommand.
+
+It starts development server, which will take your jar from `shadowJar` and reload plugin in server each time you build jar using `shadowJar`. The breakpoints also works in IDE's like IntelliJ.
+
+For more info, please visit [PaperMake](https://github.com/Rikonardo/PaperMake)'s Github repository.
