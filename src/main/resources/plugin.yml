@@ -1,0 +1,4 @@
+name: KotlinPlugin
+version: '${version}'
+main: com.groupname.kotlinplugin.KotlinPlugin
+api-version: 1.19
